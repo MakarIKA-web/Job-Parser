@@ -8,9 +8,9 @@ It consists of three main scripts:
 - `summarizer.py` — Summarizes jobs using AI.  
 - `job_browser.py` — CLI tool to filter, sort, and explore jobs.  
 
-## 📂 Project Structure
-project/
-│
+## 📂 Project Structure  
+project/  
+│  
 ├─ scraper.py          # Collects job links and scrapes details  
 ├─ summarizer.py       # Summarizes job postings using Google Gemini AI  
 ├─ job_browser.py      # CLI interface for filtering and viewing jobs  
