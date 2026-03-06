@@ -1,16 +1,14 @@
-🟢 Job Parser & Summarizer Project
+# 🟢 Job Parser & Summarizer Project
 
 This project collects job postings from Arbeidsplassen NAV, summarizes them with Google Gemini AI, and provides an interactive CLI browser for filtering and viewing jobs.
 
 It consists of three main scripts:
 
-scraper.py — Collects raw job listings.
+- `scraper.py` — Collects raw job listings.  
+- `summarizer.py` — Summarizes jobs using AI.  
+- `job_browser.py` — CLI tool to filter, sort, and explore jobs.  
 
-summarizer.py — Summarizes jobs using AI.
-
-job_browser.py — CLI tool to filter, sort, and explore jobs.
-
-📂 Project Structure
+## 📂 Project Structure
 project/
 │
 ├─ scraper.py          # Collects job links and scrapes details
