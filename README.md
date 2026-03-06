@@ -62,53 +62,45 @@ Uses Google Gemini AI to summarize and enrich raw job postings.
 
 ## 3️⃣ job_browser.py
 
-Purpose:
+**Purpose:**  
 Interactive command-line tool to filter, sort, and view jobs.
 
-Key Features:
+**Key Features:**  
+- Supports filtering by:  
+  - City  
+  - Employment type  
+  - Job title keywords  
+  - Logical operator: AND / OR  
+- Sorts jobs by:  
+  - Deadline  
+  - Job title  
+  - Company  
+- Displays top N results (configurable by user).  
+- Allows users to see application links for selected jobs.  
 
-Supports filtering by:
+**Input:** `jobs.json` or `result.json`  
+**Output:** Filtered and sorted job listings printed in CLI.
 
-City
+---
 
-Employment type
-
-Job title keywords
-
-Logical operator: AND / OR
-
-Sorts jobs by:
-
-Deadline
-
-Job title
-
-Company
-
-Displays top N results (configurable by user).
-
-Allows users to see application links for selected jobs.
-
-Input: jobs.json or result.json
-Output: Filtered and sorted job listings printed in CLI.
-
-⚙️ Requirements
-
-Python 3.10+
-
-Libraries:
-
-pip install playwright beautifulsoup4 requests google-genai
+## ⚙️ Requirements
+- Python 3.10+  
+- Libraries:  
+bash
+```pip install playwright beautifulsoup4 requests google-genai```
 
 For Playwright:
-
-playwright install
+```playwright install```
 
 Google Gemini API key
 
-🚀 Usage
-Step 1 — Scrape jobs
-python scraper.py
+---
+
+## 🚀 Usage
+
+**Step 1 — Scrape jobs**
+bash
+```python scraper.py```
 
 Scrapes jobs from Arbeidsplassen NAV.
 
